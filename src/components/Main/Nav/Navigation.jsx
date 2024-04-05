@@ -1,5 +1,6 @@
 
 import Link from "next/link"
+import MobileNav from "./MobileNav";
 
 const Navigation = () => {
   return (
@@ -7,11 +8,14 @@ const Navigation = () => {
       <div>
         <Link href="/">LOGO</Link>
       </div>
-      <div className="flex flex-row gap-8 font-[300] text-xl">
+      <div className=" flex-row gap-8 font-[300] text-xl hidden md:flex">
         <Link href="/about">About Us</Link>
         <Link href="/team">The Team</Link>
         <Link href="/login">Login</Link>
         <Link href="/register">Register</Link>
+      </div>
+      <div className="md:hidden">
+        <MobileNav />
       </div>
     </div>
   );
