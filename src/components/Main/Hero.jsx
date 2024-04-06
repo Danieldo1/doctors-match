@@ -3,8 +3,8 @@ import { Button } from "../ui/button";
 
 const Hero = () => {
   return (
-    <div className="w-full h-full flex justify-center items-center overflow-hidden md:overflow-visible">
-      <div className="relative ">
+    <div className="relative">
+      <div className="absolute inset-0 z-10">
         <div className="flex flex-col gap-4">
           <div>
             <h1 className="text-sm md:text-lg font-light">Meet With</h1>
@@ -27,14 +27,20 @@ const Hero = () => {
             <Button variant="secondary">Learn More</Button>
           </div>
         </div>
-        <div className="absolute top-[-100px] right-0 lg:-right-40 w-1/2 h-[130%] md:h-[117.6%] custom:h-[115%] lg:h-[114%]  bg-gradient-to-r from-blue-300/70 to-transparent skew-x-[-3deg]"></div>
-        <Image
-          src="/hero.png"
-          alt="Hero"
-          width={1000}
-          height={1000}
-          className="relative ml-20 lg:ml-40 xl:ml-60 2xl:ml-80"
-        />
+      </div>
+      <div className="absolute top-0 left-0 w-full">
+        <div className="w-full h-full flex justify-center items-center overflow-hidden md:overflow-visible">
+          <div className="relative ">
+            <div className="absolute top-[-100px] right-0 lg:-right-40 w-1/2 h-[130%] md:h-[117.6%] custom:h-[115%] lg:h-[114%]  bg-gradient-to-r from-blue-300/70 to-transparent skew-x-[-3deg]"></div>
+            <Image
+              src="/hero.png"
+              alt="Hero"
+              width={1000}
+              height={1000}
+              className="relative ml-20 lg:ml-40 xl:ml-60 2xl:ml-80"
+            />
+          </div>
+        </div>
       </div>
     </div>
   );
