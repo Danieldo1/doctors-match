@@ -7,7 +7,7 @@ const Navigation = () => {
   const heads = headers();
 const pathname = heads.get("next-url");
   return (
-    <div className="w-full h-full flex justify-between flex-row items-center pl-1 pr-3 py-3 border-b-[1px] md:border-b-0">
+    <div className="w-full h-full z-10 relative flex justify-between flex-row items-center pl-1 pr-3 py-3 border-b-[1px] md:border-b-0">
       <div>
         <Link href="/">LOGO</Link>
       </div>

@@ -72,7 +72,10 @@ module.exports = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       right: {
-        "75": "-75%",
+        75: "-75%",
+      },
+      screens: {
+        custom: { raw: "(min-width: 840px) and (max-width: 1025px)" },
       },
     },
   },

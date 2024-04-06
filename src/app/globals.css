@@ -50,6 +50,29 @@
   }
 }
 
+/* :root {
+  --background: #ffffff;
+  --foreground: #de1a0f;
+  --card: #ffffff;
+  --card-foreground: #de1a0f;
+  --popover: #ffffff;
+  --popover-foreground: #de1a0f;
+  --primary: #de1a0f;
+  --primary-foreground: #d428fa;
+  --secondary: #d428f5;
+  --secondary-foreground: #de782d;
+  --muted: #d428f5;
+  --muted-foreground: #d92b77;
+  --accent: #d428f5;
+  --accent-foreground: #de782d;
+  --destructive: #ff3e57;
+  --destructive-foreground: #d428fa;
+  --border: #d6c9eb;
+  --input: #d6c9eb;
+  --ring: #de1a0f;
+  --radius: 0.5rem;
+} */
+
 
 @layer base {
   * {
