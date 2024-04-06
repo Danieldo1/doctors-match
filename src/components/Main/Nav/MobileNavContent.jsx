@@ -29,7 +29,7 @@ const MobileNavContent = ({ setOpen, isOpen }) => {
   return (
     <>
       <div
-        className="w-full h-full backdrop-blur-sm  z-10 fixed top-0 left-0"
+        className="w-full h-full backdrop-blur-sm  z-30 fixed top-0 left-0"
         onClick={() => setOpen(false)}
       />
       <motion.div
@@ -38,7 +38,7 @@ const MobileNavContent = ({ setOpen, isOpen }) => {
         transition={{ type: "tween", duration: 0.3 }}
         exit={{ x: "100%" }}
         layout
-        className="w-3/4 bg-gray-50 z-20 fixed top-0 right-0 h-full"
+        className="w-3/4 bg-gray-50 z-40 fixed top-0 right-0 h-full"
       >
         <Hamburger
           toggled={isOpen}

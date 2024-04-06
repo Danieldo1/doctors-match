@@ -4,7 +4,7 @@ import { Button } from "../ui/button";
 const Hero = () => {
   return (
     <div className="relative">
-      <div className="absolute inset-0 z-10">
+      <div className="absolute inset-0 ">
         <div className="flex flex-col gap-4">
           <div>
             <h1 className="text-sm md:text-lg font-light">Meet With</h1>
