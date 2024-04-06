@@ -4,6 +4,7 @@ import React, { useState } from 'react'
 import { Slant as Hamburger } from "hamburger-react";
 import MobileNavContent from './MobileNavContent';
 
+
 const MobileNav = () => {
 const [isOpen, setOpen] = useState(false);
 
