@@ -9,7 +9,7 @@ const MobileNav = () => {
 const [isOpen, setOpen] = useState(false);
 
   return (
-    <div>
+    <div >
       <Hamburger toggled={isOpen} toggle={setOpen} hideOutline={false} />
       {isOpen && <MobileNavContent setOpen={setOpen} isOpen={isOpen} />}
     </div>
