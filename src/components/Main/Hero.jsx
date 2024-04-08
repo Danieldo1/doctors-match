@@ -28,18 +28,17 @@ const Hero = () => {
       </div>
       {/* Div with image and gradient */}
       <div className="relative w-full md:w-1/2">
-          <div className=" flex justify-center items-center overflow-hidden md:overflow-visible">
-              <div className="absolute top-0 md:top-[-70px] right-2 lg:-right-40 w-[80%] h-[100%] md:h-[117.6%] custom:h-[115%] lg:h-[114%] bg-gradient-to-r from-blue-300/70 to-transparent skew-x-[-3deg]"></div>
-            <div className="w-full h-full ">
-              <Image
-                src="/hero.png"
-                alt="Hero"
-               fill
-                className=" object-cover ml-5 lg:ml-10 xl:ml-20 2xl:ml-40"
-              />
-            </div>
+        <div className=" flex justify-center items-center overflow-hidden md:overflow-visible">
+          <div className="absolute top-0 md:top-[-54px] right-2 lg:-right-40 w-[80%] h-[114%] md:h-[117%] custom:h-[120%] lg:h-[120%] bg-gradient-to-r from-blue-300/70 to-transparent skew-x-[-3deg]"></div>
+          <div className="w-full h-full ">
+            <Image
+              src="/hero.png"
+              alt="Hero"
+              fill
+              className=" object-cover mt-10 ml-5 lg:ml-10 xl:ml-20 2xl:ml-40"
+            />
           </div>
-        
+        </div>
       </div>
     </div>
   );

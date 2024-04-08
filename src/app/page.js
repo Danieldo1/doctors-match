@@ -4,7 +4,8 @@ import Hero from "@/components/Main/Hero";
 import Intro from "@/components/Main/Intro";
 import Navigation from "@/components/Main/Nav/Navigation";
 import Steps from "@/components/Main/Steps";
-// import Team from "@/components/Main/Team";
+import TestimonialCards from "@/components/Main/TestimonialCards";
+
 
 
 export default function Home() {
@@ -20,6 +21,7 @@ export default function Home() {
         <Steps />
       </div>
       <CardComponent />
+      <TestimonialCards />
     </section>
   );
 }

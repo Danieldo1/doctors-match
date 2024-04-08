@@ -33,7 +33,7 @@ const BoxComponent = () => {
   ];
 
   return (
-    <div className="flex items-center w-full flex-row flex-wrap justify-between lg:px-20">
+    <div className="flex  items-center w-full flex-row flex-wrap justify-center md:justify-between lg:px-20">
       {boxData.map((box, index) => (
         <div
           key={index}

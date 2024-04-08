@@ -48,8 +48,8 @@ const CardComponent = () => {
         </p>
       </div>
       <div className="relative">
-        <div className="pt-20">
-          <Carousel className="bg-gray-300  ">
+        <div className="pt-20 overflow-x-hidden">
+          <Carousel className="bg-gray-200  ">
             <CarouselContent className="mt-20 w-full max-w-sm md:max-w-full">
               {cards.map((card, index) => (
                 <CarouselItem
