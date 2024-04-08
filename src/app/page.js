@@ -2,6 +2,7 @@ import AboutUs from "@/components/Main/AboutUs";
 import Hero from "@/components/Main/Hero";
 import Intro from "@/components/Main/Intro";
 import Navigation from "@/components/Main/Nav/Navigation";
+import Steps from "@/components/Main/Steps";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       </main>
       <Intro />
       <AboutUs />
+      <Steps />
     </section>
   );
 }
