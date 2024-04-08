@@ -82,3 +82,11 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* .slick-list {
+    position: relative;
+    display: block;
+    overflow: visible;
+    margin: 10;
+    padding: 0;
+} */
