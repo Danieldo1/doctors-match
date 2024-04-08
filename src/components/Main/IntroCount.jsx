@@ -4,7 +4,7 @@ import CountUp from "react-countup";
 
 const IntroCount = ({ stats }) => {
   return (
-    <div className="flex flex-row justify-evenly p-5 gap-4 bg-gray-50 w-full h-full md:px-10">
+    <div className="flex flex-row justify-evenly p-5 gap-4 bg-gray-50 w-full h-full md:px-10 pb-16">
       {stats.map((stat, index) => (
         <div key={stat.description} className="flex flex-col items-center">
           <h3 className="text-3xl md:text-5xl font-[300]">

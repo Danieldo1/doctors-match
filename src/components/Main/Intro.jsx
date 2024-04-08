@@ -12,9 +12,9 @@ const stats = [
 const Intro = () => {
   return (
     <section>
-      <div className="flex p-10  flex-col gap-4 bg-gray-50 w-full h-full pt-10 ">
+      <div className="flex p-10  flex-col gap-4 bg-gray-50 w-full h-full pt-16 ">
         <h2 className="text-3xl md:text-5xl text-center font-[400] ">
-          Our Stats show that we have the best patients.
+          Our stats show that we have the best patients.
         </h2>
         <p className="text-sm md:text-lg text-gray-500 -mt-3 text-center font-[300]">
           Just look at what we have been doing.

@@ -1,3 +1,4 @@
+import AboutUs from "@/components/Main/AboutUs";
 import Hero from "@/components/Main/Hero";
 import Intro from "@/components/Main/Intro";
 import Navigation from "@/components/Main/Nav/Navigation";
@@ -11,6 +12,7 @@ export default function Home() {
         <Hero />
       </main>
       <Intro />
+      <AboutUs />
     </section>
   );
 }
