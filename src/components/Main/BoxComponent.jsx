@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 
+
 const BoxComponent = () => {
   const [activeBox, setActiveBox] = useState(0);
 
@@ -45,8 +46,12 @@ const BoxComponent = () => {
           onClick={() => handleBoxClick(index)}
         >
           <div className="flex items-center relative justify-between mb-2 pt-10">
-            <span className="text-9xl absolute -top-0 right-[50px] font-bold opacity-15">{box.number}</span>
-            <h3 className="text-lg text-center font-semibold mt-10">{box.title}</h3>
+            <span className="text-9xl absolute -top-0 right-[50px] font-bold opacity-15">
+              {box.number}
+            </span>
+            <h3 className="text-lg text-center font-semibold mt-10">
+              {box.title}
+            </h3>
           </div>
           <p className="text-gray-600">{box.paragraph}</p>
         </div>

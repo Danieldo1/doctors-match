@@ -64,7 +64,7 @@ const CardComponent = () => {
                         className="w-full h-64 object-cover rounded-t-lg"
                       />
                     </CardHeader>
-                    <CardContent>
+                    <CardContent className="px-6 py-3">
                       <CardTitle>{card.name}</CardTitle>
                       <CardDescription>{card.profession}</CardDescription>
                       <div className="flex mb-2">
@@ -78,8 +78,8 @@ const CardComponent = () => {
                       </div>
                       <CardDescription>{card.description}</CardDescription>
                     </CardContent>
-                    <CardFooter className="flex justify-between">
-                      <button className="bg-blue-500 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">
+                    <CardFooter className="flex justify-between p-5 ">
+                      <button className="bg-blue-500 mx-3 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded">
                         Schedule Appointment
                       </button>
                       <button className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-semibold py-2 px-4 rounded">
